@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="Style/login.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title>Welcome</title>
+</head>
+<body>
+    <h1 style="text-align:center" id="welcome"></h1>
+    <button onclick="newUser()">Update user details</button>
+    <a href="Products.html">לכניסה לאתר</a>
+    <!--<button onclick="goStore()">לכניסה לאתר</button>-->
+    <div hidden id="hide">
+        <label for="email1"><b>Current Email</b></label><br />
+        <input id="h0" type="text" placeholder="Enter Current Email" name="email1" required /><br />
+
+        <label for="email"><b>Current Email</b></label><br />
+        <input id="h1" type="text" placeholder="Enter Email" name="email" required /><br />
+
+        <label for="psw1"><b>Password</b></label><br />
+        <input id="h2" type="password" placeholder="Enter Password" name="psw1" required /><br />
+
+        <label for="fname"><b>First Name</b></label><br />
+        <input id="h3" type="text" placeholder="Enter First Name" name="fname" /><br />
+
+        <label for="lname"><b>Last Name</b></label><br />
+        <input id="h4" type="text" placeholder="Enter Last Name" name="lname" /><br />
+
+        <button onclick=putUser()>update</button>
+
+    </div>
+</body>
+<script src="./Js/JavaScript.js"></script>
+<script src="./Js/JavaScript1.js"></script>
+</html>

@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="../Style/login.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="Images/login/logo.gif" />
+        <form>
+            <div class="row">
+                <!--<h2 style="text-align:center">Login with Social Media or Manually</h2>-->
+                <!--<div class="vl" hidden id="hide1">
+                    <span class="vl-innertext">or</span>
+                </div>-->
+
+                <div class="col">
+                    <label for="email"><b>Email</b></label><br />
+                    <input type="text" id="name" placeholder="Enter Email" name="email" required /><br />
+
+                    <label for="psw"><b>Password</b></label><br />
+                    <input type="password" id="pswd" placeholder="Enter Password" name="psw" required /><br />
+                    <button type="button" href="htmlpage1.html" class="signupbtn" onclick="getUser()">Log in</button>
+                    <button type="button" class="signupbtn" onclick="newUser()">Sign Up</button>
+                </div>
+
+                <div hidden id="hide" class="col">
+                    <div class="hide-md-lg">
+                        <p>Or sign in manually:</p>
+                    </div>
+
+                    <label for="email1"><b>Email</b></label><br />
+                    <input id="h1" type="text" placeholder="Enter Email" name="email1" required /><br />
+
+                    <label for="psw1"><b>Password</b></label><br />
+                    <input id="h2" type="password" placeholder="Enter Password" name="psw1" required /><br />
+
+                    <label for="fname"><b>First Name</b></label><br />
+                    <input id="h3" type="text" placeholder="Enter First Name" name="fname" /><br />
+
+                    <label for="lname"><b>Last Name</b></label><br />
+                    <input id="h4" type="text" placeholder="Enter Last Name" name="lname" /><br />
+
+                    <button onclick="postUser()">Subscribe</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!--<div class="container>-->
+    <!--<div class="background-shadow"></div>-->
+    <!--<form>
+            <div class="row">
+                <div class="vl">
+                    <span class="vl-innertext">or</span>
+                </div>
+                <div class="col">
+                    <label for="email"><b>Email</b></label><br />
+                    <input type="text" id="name" placeholder="Enter Email" name="email" required /><br />
+
+                    <label for="psw"><b>Password</b></label><br />
+                    <input type="password" id="pswd" placeholder="Enter Password" name="psw" required /><br />
+                </div>
+                <div class="bottom-container">
+                    <button type="button" href="htmlpage1.html" class="signupbtn" onclick="getUser()">Log in</button>
+                    <button type="button" class="signupbtn" onclick="newUser()">Sign Up</button>
+                </div>
+            </div>
+
+        </form>
+        <div class="col" hidden id="hide">
+            <br /><br />
+            <label for="email1"><b>Email</b></label><br />
+            <input id="h1" type="text" placeholder="Enter Email" name="email1" required /><br />
+
+            <label for="psw1"><b>Password</b></label><br />
+            <input id="h2" type="password" placeholder="Enter Password" name="psw1" required /><br />
+
+            <label for="fname"><b>First Name</b></label><br />
+            <input id="h3" type="text" placeholder="Enter First Name" name="fname" required /><br />
+
+            <label for="lname"><b>Last Name</b></label><br />
+            <input id="h4" type="text" placeholder="Enter Last Name" name="lname" required /><br />
+
+            <button onclick="postUser()">Subscribe</button>
+        </div>
+    </div>-->
+</body>
+<script src="./Js/JavaScript.js"></script>
+</html>
